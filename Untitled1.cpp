@@ -12,13 +12,13 @@ int main() {
     //while na tab tak kam karna ha jab tak complete na ho
     
     while (num > 0) {
-        // Extract the rightmost digit
+        
         digit = num % 10;
         
-        // Print out the digit with a space after it
+        
         printf("%d ", digit);
         
-        // Move on to the next digit
+        
         num /= 10;
     }
     
